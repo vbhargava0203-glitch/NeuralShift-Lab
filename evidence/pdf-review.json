@@ -1,0 +1,7 @@
+{
+  "file": "paper/manuscript.pdf",
+  "pages": 14,
+  "renderer": "Poppler pdftoppm",
+  "visual_review": "All 14 rendered pages reviewed; headings, tables, figures and footer layout inspected.",
+  "font_config_warnings": "Poppler warned about unused display-font mappings for Symbol/ArialUnicode; rendered pages were inspected."
+}

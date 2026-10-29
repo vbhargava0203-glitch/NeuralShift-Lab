@@ -1,0 +1,72 @@
+{
+  "runs": [
+    {
+      "run_id": "5d25a4af27b5",
+      "profile": "development",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "seed": 11,
+      "status": "validated",
+      "path": "results/pilot/runs/5d25a4af27b5",
+      "training_seconds": 4.88616270001512,
+      "evaluation_seconds": 26.0709988999879
+    },
+    {
+      "run_id": "9411ebb3ea90",
+      "profile": "development",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "seed": 44,
+      "status": "validated",
+      "path": "results/pilot/runs/9411ebb3ea90",
+      "training_seconds": 13.63511169992853,
+      "evaluation_seconds": 71.69708549999632
+    },
+    {
+      "run_id": "a3dc5434183b",
+      "profile": "development",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "seed": 55,
+      "status": "validated",
+      "path": "results/pilot/runs/a3dc5434183b",
+      "training_seconds": 13.342157799866982,
+      "evaluation_seconds": 66.80424889991991
+    },
+    {
+      "run_id": "e337964e428e",
+      "profile": "development",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "seed": 22,
+      "status": "validated",
+      "path": "results/pilot/runs/e337964e428e",
+      "training_seconds": 4.423654900048859,
+      "evaluation_seconds": 28.034194999956526
+    },
+    {
+      "run_id": "ee2ed85c603f",
+      "profile": "development",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "seed": 33,
+      "status": "validated",
+      "path": "results/pilot/runs/ee2ed85c603f",
+      "training_seconds": 13.057584600057453,
+      "evaluation_seconds": 65.23634089995176
+    },
+    {
+      "run_id": "b7984d60aa98",
+      "profile": "smoke",
+      "dataset": "fashion_mnist",
+      "model": "cnn",
+      "seed": 42,
+      "status": "validated",
+      "path": "results/smoke/runs/b7984d60aa98",
+      "training_seconds": 0.8952206000685692,
+      "evaluation_seconds": 3.7411537000443786
+    }
+  ],
+  "full_research_matrix_complete": false,
+  "provenance_note": "See each manifest for explicit NumPy/Pillow metadata audit correction."
+}

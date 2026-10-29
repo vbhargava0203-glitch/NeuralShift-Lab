@@ -1,0 +1,13 @@
+Obtaining file:///C:/Users/vbhar/Documents/Codex/2026-10-27/han/outputs/NeuralShift-Lab
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: neuralshift-lab
+  Building editable for neuralshift-lab (pyproject.toml): started
+  Building editable for neuralshift-lab (pyproject.toml): finished with status 'done'
+  Created wheel for neuralshift-lab: filename=neuralshift_lab-0.1.0-0.editable-py3-none-any.whl size=6148 sha256=32454954c4ca6693ff1ac6542d17f4d0d0141afd77d54d2e84e84e335958b2ae
+  Stored in directory: C:\Users\vbhar\Documents\Codex\2026-10-27\han\work\pip-temp\pip-ephem-wheel-cache-cocqing9\wheels\85\70\aa\f686a83b42eb056ce5b0d4023223fe4dddd320d00d37c1dc72
+Successfully built neuralshift-lab
+Installing collected packages: neuralshift-lab
+Successfully installed neuralshift-lab-0.1.0

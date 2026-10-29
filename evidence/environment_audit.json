@@ -1,0 +1,42 @@
+{
+  "numpy": {
+    "runtime": "2.5.4",
+    "metadata": "2.5.4"
+  },
+  "pillow": {
+    "runtime": "13.0.0",
+    "metadata": "13.0.0"
+  },
+  "torch": {
+    "runtime": "2.14.1+cpu",
+    "metadata": "2.14.1+cpu"
+  },
+  "torchvision": {
+    "runtime": "0.29.1+cpu",
+    "metadata": "0.29.1+cpu"
+  },
+  "pandas": {
+    "runtime": "3.1.0",
+    "metadata": "3.1.0"
+  },
+  "scipy": {
+    "runtime": "1.18.1",
+    "metadata": "1.18.1"
+  },
+  "scikit-learn": {
+    "runtime": "1.9.1",
+    "metadata": "1.9.1"
+  },
+  "matplotlib": {
+    "runtime": "3.11.2",
+    "metadata": "3.11.2"
+  },
+  "seaborn": {
+    "runtime": "0.13.2",
+    "metadata": "0.13.2"
+  },
+  "PyYAML": {
+    "runtime": "6.0.3",
+    "metadata": "6.0.3"
+  }
+}

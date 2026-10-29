@@ -1,0 +1,3 @@
+# Finalized primary protocol
+
+Train independently for each dataset/model/seed. Use validation loss for checkpoint selection and validation logits only for temperature fitting. Test IDs are fixed by split_seed+3; corruption noise uses corruption_seed + source_index*1009 + severity*9176. Freeze the configuration before test evaluation. Primary error target is the deterministic classifier for all scores. MC mean probabilities are uncertainty evidence, not a different prediction target. Five research seeds are planned. Smoke and development runs are explicitly preliminary. No confirmatory hypothesis tests are selected after viewing test metrics.

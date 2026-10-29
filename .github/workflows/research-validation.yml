@@ -1,0 +1,42 @@
+name: Real-data smoke validation
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  real-data-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install
+        run: |
+          python -m pip install -r requirements-lock.txt
+          python -m pip install -e . --no-deps
+      - name: Download official data
+        run: python -m neuralshift.cli download-data --config configs/cpu_smoke.yaml
+      - name: Run real-data smoke profile
+        env:
+          OMP_NUM_THREADS: '2'
+          MKL_NUM_THREADS: '2'
+        run: python -m neuralshift.cli experiment --config configs/cpu_smoke.yaml
+      - name: Validate computed artifacts
+        run: python -m neuralshift.cli validate-results --results results
+      - name: Generate figures and report
+        run: |
+          python -m neuralshift.cli figures --results results
+          python -m neuralshift.cli report --results results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: real-data-smoke-evidence
+          path: |
+            results/
+            experiments/manifests/
+          retention-days: 14

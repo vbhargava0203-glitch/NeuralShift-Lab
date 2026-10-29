@@ -1,0 +1,16 @@
+extends: default.yaml
+profile: research
+matrix:
+  datasets:
+  - fashion_mnist
+  - cifar10
+  models:
+  - cnn
+  - resnet18
+  seeds:
+  - 11
+  - 22
+  - 33
+  - 44
+  - 55
+output: results/research

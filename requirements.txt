@@ -1,0 +1,15 @@
+# Captured from the tested Windows CPython 3.12 CPU environment.
+# Re-run tests on other platforms; CUDA wheels require a separate environment.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+PyYAML==6.0.3
+tqdm==4.70.1
+reportlab==5.1.0

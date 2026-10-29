@@ -1,0 +1,12 @@
+extends: default.yaml
+profile: development
+dataset: cifar10
+data:
+  train_limit: 3000
+  val_limit: 600
+  test_limit: 1000
+training:
+  epochs: 3
+evaluation:
+  mc_passes: 5
+output: results/cifar10-development

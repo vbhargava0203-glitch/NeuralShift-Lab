@@ -1,0 +1,4 @@
+extends: default.yaml
+evaluation:
+  mc_passes: 30
+  bins: 15

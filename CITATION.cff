@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, cite its title and the exact version or Git commit used. Collective attribution is provisional: the owner should confirm authorship and add the public repository URL before publication."
+title: "NeuralShift Lab: Understanding Machine Learning Reliability Under Distribution Shift"
+authors:
+  - name: "NeuralShift Lab contributors"
+type: software
+version: 0.1.0
+license: MIT
+abstract: "An empirical research platform for controlled image corruption, uncertainty scoring, calibration, and selective classification."
+keywords:
+  - distribution shift
+  - calibration
+  - uncertainty quantification
+  - reproducibility

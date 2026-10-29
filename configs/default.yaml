@@ -1,0 +1,42 @@
+profile: development
+dataset: fashion_mnist
+model: cnn
+seed: 42
+data:
+  root: data
+  download: false
+  validation_fraction: 0.1
+  split_seed: 2026
+  train_limit: null
+  val_limit: null
+  test_limit: null
+model_options:
+  dropout: 0.25
+  batch_norm: true
+training:
+  epochs: 15
+  batch_size: 128
+  lr: 0.001
+  weight_decay: 0.0001
+  patience: 5
+  device: cpu
+  workers: 0
+  threads: 4
+  deterministic: true
+evaluation:
+  batch_size: 128
+  mc_passes: 30
+  bins: 15
+  corruptions:
+  - gaussian_noise
+  - blur
+  - brightness
+  - contrast
+  severities:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  corruption_seed: 1729
+output: results

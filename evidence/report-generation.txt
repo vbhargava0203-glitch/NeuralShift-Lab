@@ -1,0 +1,3 @@
+Report command: python -m neuralshift.cli report --results results/pilot
+Completed output: results/pilot/reports/20261028T162617Z-86a5cd/manuscript.md
+Tables and figures exist; their numeric inputs were validated.

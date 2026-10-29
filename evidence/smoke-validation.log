@@ -1,0 +1,16 @@
+[
+  {
+    "valid": true,
+    "run_id": "b7984d60aa98",
+    "conditions": 9,
+    "metric_rows": 63,
+    "checks": [
+      "sha256",
+      "split_disjointness",
+      "validation_calibration_provenance",
+      "identical_test_ids_and_labels",
+      "finite_probabilities",
+      "metric_recomputation"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+2026-10-28 13:58:28,447 INFO b7984d60aa98 epoch 1 train loss 2.0589 val loss 1.9382 val accuracy 0.4531
+2026-10-28 13:58:29,022 INFO b7984d60aa98 evaluated clean severity 0
+2026-10-28 13:58:29,363 INFO b7984d60aa98 evaluated gaussian_noise severity 1
+2026-10-28 13:58:29,791 INFO b7984d60aa98 evaluated gaussian_noise severity 5
+2026-10-28 13:58:30,206 INFO b7984d60aa98 evaluated blur severity 1
+2026-10-28 13:58:30,542 INFO b7984d60aa98 evaluated blur severity 5
+2026-10-28 13:58:30,852 INFO b7984d60aa98 evaluated brightness severity 1
+2026-10-28 13:58:31,187 INFO b7984d60aa98 evaluated brightness severity 5
+2026-10-28 13:58:31,531 INFO b7984d60aa98 evaluated contrast severity 1
+2026-10-28 13:58:31,849 INFO b7984d60aa98 evaluated contrast severity 5
+[
+  "C:\\Users\\vbhar\\Documents\\Codex\\2026-10-27\\han\\outputs\\NeuralShift-Lab\\results\\smoke\\runs\\b7984d60aa98"
+]

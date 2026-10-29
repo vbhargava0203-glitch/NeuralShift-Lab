@@ -1,0 +1,14 @@
+extends: default.yaml
+profile: development
+dataset: fashion_mnist
+seed: 42
+data:
+  train_limit: 3000
+  val_limit: 600
+  test_limit: 1000
+training:
+  epochs: 3
+  threads: 4
+evaluation:
+  mc_passes: 5
+output: results/development

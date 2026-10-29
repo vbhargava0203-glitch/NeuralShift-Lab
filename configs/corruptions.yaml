@@ -1,0 +1,13 @@
+extends: default.yaml
+evaluation:
+  corruptions:
+  - gaussian_noise
+  - blur
+  - brightness
+  - contrast
+  severities:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5

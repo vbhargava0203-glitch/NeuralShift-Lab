@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuralshift-lab"
+version = "0.1.0"
+description = "Reproducible empirical studies of predictive reliability under controlled image corruption"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+  "torch", "torchvision", "numpy", "pandas", "scipy", "scikit-learn",
+  "matplotlib", "seaborn", "PyYAML", "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "mypy"]
+monitoring = ["tensorboard"]
+report = ["reportlab"]
+
+[project.scripts]
+neuralshift = "neuralshift.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+markers = ["integration: real-data integration tests requiring an explicit dataset download"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+check_untyped_defs = true
+

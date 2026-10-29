@@ -1,0 +1,72 @@
+[
+  {
+    "valid": true,
+    "run_id": "5d25a4af27b5",
+    "conditions": 21,
+    "metric_rows": 147,
+    "checks": [
+      "sha256",
+      "split_disjointness",
+      "validation_calibration_provenance",
+      "identical_test_ids_and_labels",
+      "finite_probabilities",
+      "metric_recomputation"
+    ]
+  },
+  {
+    "valid": true,
+    "run_id": "9411ebb3ea90",
+    "conditions": 21,
+    "metric_rows": 147,
+    "checks": [
+      "sha256",
+      "split_disjointness",
+      "validation_calibration_provenance",
+      "identical_test_ids_and_labels",
+      "finite_probabilities",
+      "metric_recomputation"
+    ]
+  },
+  {
+    "valid": true,
+    "run_id": "a3dc5434183b",
+    "conditions": 21,
+    "metric_rows": 147,
+    "checks": [
+      "sha256",
+      "split_disjointness",
+      "validation_calibration_provenance",
+      "identical_test_ids_and_labels",
+      "finite_probabilities",
+      "metric_recomputation"
+    ]
+  },
+  {
+    "valid": true,
+    "run_id": "e337964e428e",
+    "conditions": 21,
+    "metric_rows": 147,
+    "checks": [
+      "sha256",
+      "split_disjointness",
+      "validation_calibration_provenance",
+      "identical_test_ids_and_labels",
+      "finite_probabilities",
+      "metric_recomputation"
+    ]
+  },
+  {
+    "valid": true,
+    "run_id": "ee2ed85c603f",
+    "conditions": 21,
+    "metric_rows": 147,
+    "checks": [
+      "sha256",
+      "split_disjointness",
+      "validation_calibration_provenance",
+      "identical_test_ids_and_labels",
+      "finite_probabilities",
+      "metric_recomputation"
+    ]
+  }
+]

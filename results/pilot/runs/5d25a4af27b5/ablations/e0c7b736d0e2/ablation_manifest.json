@@ -1,0 +1,13 @@
+{
+  "source_run": "5d25a4af27b5",
+  "source_manifest_sha256": "282c70ce8d0d441d1f960c3fd8ebd4537a63ab67dd328f116b4096241746d6e5",
+  "factor": "mc_passes",
+  "values": [
+    2,
+    3,
+    5
+  ],
+  "design": "nested prefix samples; fixed checkpoint and examples",
+  "independent_training_runs": 1,
+  "confirmatory_inference": false
+}

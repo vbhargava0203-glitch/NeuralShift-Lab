@@ -1,0 +1,6 @@
+extends: experiments.yaml
+matrix:
+  datasets: [fashion_mnist]
+  models: [cnn]
+  seeds: [11, 22, 33, 44, 55]
+output: results/research-fashion-cnn

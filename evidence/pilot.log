@@ -1,0 +1,127 @@
+2026-10-28 13:59:30,403 INFO 5d25a4af27b5 epoch 1 train loss 1.5783 val loss 1.0728 val accuracy 0.5683
+2026-10-28 13:59:32,072 INFO 5d25a4af27b5 epoch 2 train loss 0.9666 val loss 0.7398 val accuracy 0.7150
+2026-10-28 13:59:33,687 INFO 5d25a4af27b5 epoch 3 train loss 0.8224 val loss 0.6829 val accuracy 0.7433
+2026-10-28 13:59:35,125 INFO 5d25a4af27b5 evaluated clean severity 0
+2026-10-28 13:59:36,417 INFO 5d25a4af27b5 evaluated gaussian_noise severity 1
+2026-10-28 13:59:37,756 INFO 5d25a4af27b5 evaluated gaussian_noise severity 2
+2026-10-28 13:59:39,209 INFO 5d25a4af27b5 evaluated gaussian_noise severity 3
+2026-10-28 13:59:40,550 INFO 5d25a4af27b5 evaluated gaussian_noise severity 4
+2026-10-28 13:59:41,960 INFO 5d25a4af27b5 evaluated gaussian_noise severity 5
+2026-10-28 13:59:43,225 INFO 5d25a4af27b5 evaluated blur severity 1
+2026-10-28 13:59:44,466 INFO 5d25a4af27b5 evaluated blur severity 2
+2026-10-28 13:59:45,682 INFO 5d25a4af27b5 evaluated blur severity 3
+2026-10-28 13:59:46,843 INFO 5d25a4af27b5 evaluated blur severity 4
+2026-10-28 13:59:48,087 INFO 5d25a4af27b5 evaluated blur severity 5
+2026-10-28 13:59:49,288 INFO 5d25a4af27b5 evaluated brightness severity 1
+2026-10-28 13:59:50,381 INFO 5d25a4af27b5 evaluated brightness severity 2
+2026-10-28 13:59:51,497 INFO 5d25a4af27b5 evaluated brightness severity 3
+2026-10-28 13:59:52,642 INFO 5d25a4af27b5 evaluated brightness severity 4
+2026-10-28 13:59:53,656 INFO 5d25a4af27b5 evaluated brightness severity 5
+2026-10-28 13:59:54,785 INFO 5d25a4af27b5 evaluated contrast severity 1
+2026-10-28 13:59:55,889 INFO 5d25a4af27b5 evaluated contrast severity 2
+2026-10-28 13:59:57,010 INFO 5d25a4af27b5 evaluated contrast severity 3
+2026-10-28 13:59:58,108 INFO 5d25a4af27b5 evaluated contrast severity 4
+2026-10-28 13:59:59,148 INFO 5d25a4af27b5 evaluated contrast severity 5
+2026-10-28 14:00:02,755 INFO e337964e428e epoch 1 train loss 1.5789 val loss 1.0799 val accuracy 0.6550
+2026-10-28 14:00:04,255 INFO e337964e428e epoch 2 train loss 0.9515 val loss 0.7811 val accuracy 0.7183
+2026-10-28 14:00:05,718 INFO e337964e428e epoch 3 train loss 0.8388 val loss 0.6893 val accuracy 0.7467
+2026-10-28 14:00:07,094 INFO e337964e428e evaluated clean severity 0
+2026-10-28 14:00:08,380 INFO e337964e428e evaluated gaussian_noise severity 1
+2026-10-28 14:00:09,538 INFO e337964e428e evaluated gaussian_noise severity 2
+2026-10-28 14:00:10,953 INFO e337964e428e evaluated gaussian_noise severity 3
+2026-10-28 14:00:12,348 INFO e337964e428e evaluated gaussian_noise severity 4
+2026-10-28 14:00:13,739 INFO e337964e428e evaluated gaussian_noise severity 5
+2026-10-28 14:00:15,193 INFO e337964e428e evaluated blur severity 1
+2026-10-28 14:00:16,822 INFO e337964e428e evaluated blur severity 2
+2026-10-28 14:00:18,216 INFO e337964e428e evaluated blur severity 3
+2026-10-28 14:00:19,604 INFO e337964e428e evaluated blur severity 4
+2026-10-28 14:00:20,962 INFO e337964e428e evaluated blur severity 5
+2026-10-28 14:00:22,098 INFO e337964e428e evaluated brightness severity 1
+2026-10-28 14:00:23,277 INFO e337964e428e evaluated brightness severity 2
+2026-10-28 14:00:24,538 INFO e337964e428e evaluated brightness severity 3
+2026-10-28 14:00:25,746 INFO e337964e428e evaluated brightness severity 4
+2026-10-28 14:00:26,945 INFO e337964e428e evaluated brightness severity 5
+2026-10-28 14:00:28,235 INFO e337964e428e evaluated contrast severity 1
+2026-10-28 14:00:29,483 INFO e337964e428e evaluated contrast severity 2
+2026-10-28 14:00:30,731 INFO e337964e428e evaluated contrast severity 3
+2026-10-28 14:00:31,961 INFO e337964e428e evaluated contrast severity 4
+2026-10-28 14:00:33,097 INFO e337964e428e evaluated contrast severity 5
+2026-10-28 14:00:38,724 INFO ee2ed85c603f epoch 1 train loss 1.5306 val loss 1.0431 val accuracy 0.6717
+2026-10-28 14:00:43,758 INFO ee2ed85c603f epoch 2 train loss 0.9613 val loss 0.7695 val accuracy 0.7217
+2026-10-28 14:00:48,458 INFO ee2ed85c603f epoch 3 train loss 0.8273 val loss 0.6960 val accuracy 0.7367
+2026-10-28 14:00:51,878 INFO ee2ed85c603f evaluated clean severity 0
+2026-10-28 14:00:55,338 INFO ee2ed85c603f evaluated gaussian_noise severity 1
+2026-10-28 14:00:58,185 INFO ee2ed85c603f evaluated gaussian_noise severity 2
+2026-10-28 14:00:59,862 INFO ee2ed85c603f evaluated gaussian_noise severity 3
+2026-10-28 14:01:01,887 INFO ee2ed85c603f evaluated gaussian_noise severity 4
+2026-10-28 14:01:05,445 INFO ee2ed85c603f evaluated gaussian_noise severity 5
+2026-10-28 14:01:09,283 INFO ee2ed85c603f evaluated blur severity 1
+2026-10-28 14:01:12,890 INFO ee2ed85c603f evaluated blur severity 2
+2026-10-28 14:01:16,594 INFO ee2ed85c603f evaluated blur severity 3
+2026-10-28 14:01:20,264 INFO ee2ed85c603f evaluated blur severity 4
+2026-10-28 14:01:23,902 INFO ee2ed85c603f evaluated blur severity 5
+2026-10-28 14:01:27,003 INFO ee2ed85c603f evaluated brightness severity 1
+2026-10-28 14:01:30,400 INFO ee2ed85c603f evaluated brightness severity 2
+2026-10-28 14:01:33,756 INFO ee2ed85c603f evaluated brightness severity 3
+2026-10-28 14:01:36,890 INFO ee2ed85c603f evaluated brightness severity 4
+2026-10-28 14:01:39,895 INFO ee2ed85c603f evaluated brightness severity 5
+2026-10-28 14:01:41,453 INFO ee2ed85c603f evaluated contrast severity 1
+2026-10-28 14:01:42,874 INFO ee2ed85c603f evaluated contrast severity 2
+2026-10-28 14:01:45,743 INFO ee2ed85c603f evaluated contrast severity 3
+2026-10-28 14:01:48,908 INFO ee2ed85c603f evaluated contrast severity 4
+2026-10-28 14:01:52,009 INFO ee2ed85c603f evaluated contrast severity 5
+2026-10-28 14:02:02,329 INFO 9411ebb3ea90 epoch 1 train loss 1.5470 val loss 1.0752 val accuracy 0.6467
+2026-10-28 14:02:06,900 INFO 9411ebb3ea90 epoch 2 train loss 0.9435 val loss 0.7520 val accuracy 0.7267
+2026-10-28 14:02:11,347 INFO 9411ebb3ea90 epoch 3 train loss 0.8237 val loss 0.6838 val accuracy 0.7483
+2026-10-28 14:02:14,926 INFO 9411ebb3ea90 evaluated clean severity 0
+2026-10-28 14:02:18,267 INFO 9411ebb3ea90 evaluated gaussian_noise severity 1
+2026-10-28 14:02:21,742 INFO 9411ebb3ea90 evaluated gaussian_noise severity 2
+2026-10-28 14:02:25,283 INFO 9411ebb3ea90 evaluated gaussian_noise severity 3
+2026-10-28 14:02:28,621 INFO 9411ebb3ea90 evaluated gaussian_noise severity 4
+2026-10-28 14:02:32,108 INFO 9411ebb3ea90 evaluated gaussian_noise severity 5
+2026-10-28 14:02:35,866 INFO 9411ebb3ea90 evaluated blur severity 1
+2026-10-28 14:02:39,461 INFO 9411ebb3ea90 evaluated blur severity 2
+2026-10-28 14:02:42,979 INFO 9411ebb3ea90 evaluated blur severity 3
+2026-10-28 14:02:46,590 INFO 9411ebb3ea90 evaluated blur severity 4
+2026-10-28 14:02:50,039 INFO 9411ebb3ea90 evaluated blur severity 5
+2026-10-28 14:02:53,188 INFO 9411ebb3ea90 evaluated brightness severity 1
+2026-10-28 14:02:56,444 INFO 9411ebb3ea90 evaluated brightness severity 2
+2026-10-28 14:02:59,632 INFO 9411ebb3ea90 evaluated brightness severity 3
+2026-10-28 14:03:02,804 INFO 9411ebb3ea90 evaluated brightness severity 4
+2026-10-28 14:03:05,918 INFO 9411ebb3ea90 evaluated brightness severity 5
+2026-10-28 14:03:09,150 INFO 9411ebb3ea90 evaluated contrast severity 1
+2026-10-28 14:03:12,253 INFO 9411ebb3ea90 evaluated contrast severity 2
+2026-10-28 14:03:15,463 INFO 9411ebb3ea90 evaluated contrast severity 3
+2026-10-28 14:03:18,570 INFO 9411ebb3ea90 evaluated contrast severity 4
+2026-10-28 14:03:21,575 INFO 9411ebb3ea90 evaluated contrast severity 5
+2026-10-28 14:03:31,184 INFO a3dc5434183b epoch 1 train loss 1.5841 val loss 1.0349 val accuracy 0.6500
+2026-10-28 14:03:35,618 INFO a3dc5434183b epoch 2 train loss 0.9844 val loss 0.7478 val accuracy 0.7350
+2026-10-28 14:03:40,144 INFO a3dc5434183b epoch 3 train loss 0.8432 val loss 0.7134 val accuracy 0.7417
+2026-10-28 14:03:43,958 INFO a3dc5434183b evaluated clean severity 0
+2026-10-28 14:03:47,418 INFO a3dc5434183b evaluated gaussian_noise severity 1
+2026-10-28 14:03:50,991 INFO a3dc5434183b evaluated gaussian_noise severity 2
+2026-10-28 14:03:54,498 INFO a3dc5434183b evaluated gaussian_noise severity 3
+2026-10-28 14:03:58,123 INFO a3dc5434183b evaluated gaussian_noise severity 4
+2026-10-28 14:04:01,718 INFO a3dc5434183b evaluated gaussian_noise severity 5
+2026-10-28 14:04:05,518 INFO a3dc5434183b evaluated blur severity 1
+2026-10-28 14:04:09,339 INFO a3dc5434183b evaluated blur severity 2
+2026-10-28 14:04:12,995 INFO a3dc5434183b evaluated blur severity 3
+2026-10-28 14:04:16,710 INFO a3dc5434183b evaluated blur severity 4
+2026-10-28 14:04:20,208 INFO a3dc5434183b evaluated blur severity 5
+2026-10-28 14:04:23,520 INFO a3dc5434183b evaluated brightness severity 1
+2026-10-28 14:04:26,800 INFO a3dc5434183b evaluated brightness severity 2
+2026-10-28 14:04:29,948 INFO a3dc5434183b evaluated brightness severity 3
+2026-10-28 14:04:32,976 INFO a3dc5434183b evaluated brightness severity 4
+2026-10-28 14:04:36,050 INFO a3dc5434183b evaluated brightness severity 5
+2026-10-28 14:04:39,350 INFO a3dc5434183b evaluated contrast severity 1
+2026-10-28 14:04:41,344 INFO a3dc5434183b evaluated contrast severity 2
+2026-10-28 14:04:42,869 INFO a3dc5434183b evaluated contrast severity 3
+2026-10-28 14:04:44,188 INFO a3dc5434183b evaluated contrast severity 4
+2026-10-28 14:04:45,509 INFO a3dc5434183b evaluated contrast severity 5
+[
+  "C:\\Users\\vbhar\\Documents\\Codex\\2026-10-27\\han\\outputs\\NeuralShift-Lab\\results\\pilot\\runs\\5d25a4af27b5",
+  "C:\\Users\\vbhar\\Documents\\Codex\\2026-10-27\\han\\outputs\\NeuralShift-Lab\\results\\pilot\\runs\\e337964e428e",
+  "C:\\Users\\vbhar\\Documents\\Codex\\2026-10-27\\han\\outputs\\NeuralShift-Lab\\results\\pilot\\runs\\ee2ed85c603f",
+  "C:\\Users\\vbhar\\Documents\\Codex\\2026-10-27\\han\\outputs\\NeuralShift-Lab\\results\\pilot\\runs\\9411ebb3ea90",
+  "C:\\Users\\vbhar\\Documents\\Codex\\2026-10-27\\han\\outputs\\NeuralShift-Lab\\results\\pilot\\runs\\a3dc5434183b"
+]

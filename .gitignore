@@ -1,0 +1,37 @@
+# Python environments and build products
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Secrets and local editor configuration
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw benchmark data and large derived arrays/checkpoints
+data/*
+!data/README.md
+*.pt
+*.pth
+*.npz
+*.npy
+*.tar.gz
+*.zip
+events.out.tfevents.*
+
+# Keep small validated metrics, manifests, reports, and figures reviewable.
+# Use artifact hosting or Git LFS for explicitly selected large files.
+

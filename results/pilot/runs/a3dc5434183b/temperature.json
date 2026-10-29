@@ -1,0 +1,7 @@
+{
+  "temperature": 0.7028690495287206,
+  "split": "validation",
+  "n": 600,
+  "validation_logits_sha256": "f49c158785cd781c52745d57e808b6e041e704839397842ac3c083e174aa56f8",
+  "checkpoint_sha256": "bd437bf05e37e95acd4bc10e62e990ce621ceaefa6d7058992d531387b1fa736"
+}

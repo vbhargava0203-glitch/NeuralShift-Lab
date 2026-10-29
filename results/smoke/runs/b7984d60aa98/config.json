@@ -1,0 +1,47 @@
+{
+  "profile": "smoke",
+  "dataset": "fashion_mnist",
+  "model": "cnn",
+  "seed": 42,
+  "data": {
+    "root": "data",
+    "download": false,
+    "validation_fraction": 0.1,
+    "split_seed": 2026,
+    "train_limit": 512,
+    "val_limit": 128,
+    "test_limit": 128
+  },
+  "model_options": {
+    "dropout": 0.25,
+    "batch_norm": true
+  },
+  "training": {
+    "epochs": 1,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 5,
+    "device": "cpu",
+    "workers": 0,
+    "threads": 2,
+    "deterministic": true
+  },
+  "evaluation": {
+    "batch_size": 64,
+    "mc_passes": 3,
+    "bins": 15,
+    "corruptions": [
+      "gaussian_noise",
+      "blur",
+      "brightness",
+      "contrast"
+    ],
+    "severities": [
+      1,
+      5
+    ],
+    "corruption_seed": 1729
+  },
+  "output": "results/smoke"
+}
